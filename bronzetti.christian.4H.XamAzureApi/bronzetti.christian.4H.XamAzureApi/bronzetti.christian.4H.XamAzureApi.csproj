@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>bronzetti.christian._4H.XamAzureApi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Nuova cartella1\**" />
+    <Compile Remove="Nuova cartella2\**" />
+    <Content Remove="Nuova cartella1\**" />
+    <Content Remove="Nuova cartella2\**" />
+    <EmbeddedResource Remove="Nuova cartella1\**" />
+    <EmbeddedResource Remove="Nuova cartella2\**" />
+    <None Remove="Nuova cartella1\**" />
+    <None Remove="Nuova cartella2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+</Project>
